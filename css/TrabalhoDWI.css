@@ -26,6 +26,10 @@ body{
     border-right: 2px solid darkgrey; 
 }
 
+.flex-container > li:hover{
+    background-color:darkgrey;
+}
+
 .flex-container > li > a {
     text-decoration: none;
     color: #708090
