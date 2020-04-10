@@ -76,52 +76,44 @@ p{
     background-color: white;
     padding: 10px;
     border-left: #708090 solid 1px;
-
+    flex-wrap: wrap;
 }
 
 .educacao{
     flex: 25;
     border-bottom: 1px solid #708090;
     padding: 15px;
+    justify-content: flex-start;
+}
+
+.arrumando{
+    display: flex;
+    flex: 40;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 5px;
 }
 
 .medio{
     flex: 25;
-    padding:10px;
-    text-align: center;
-}
-
-.medio > h2 {
-    font-size: 15px;
-    color: darkslategrey;
+    text-align: left;
 }
 
 .graduacao{
     flex: 25;
-    padding: 10px;
-    text-align: center; 
-}
-
-.graduacao > h2 {
-    font-size: 15px;
-    color: darkslategrey;
+    text-align: left;
 }
 
 .ingles{
     flex: 25;
-    padding: 10px;
-    text-align: center; 
-}
-
-.ingles > h2 {
-    font-size: 15px;
-    color: darkslategrey;
+    text-align: left;
 }
 
 .experiencia{
-    flex: 100;
+    flex: 40;
     border-top: 1px solid #708090;
 }
+
 
 footer {
     text-align: center;
