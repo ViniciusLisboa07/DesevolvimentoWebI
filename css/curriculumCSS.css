@@ -67,8 +67,9 @@ p{
 
 .lado > img {
     border-radius: 1000px;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
+    margin: 5px;
 }
 
 .meio{
@@ -91,17 +92,18 @@ p{
     flex: 40;
     justify-content: space-around;
     padding: 10px;
+    margin: 5px;
     font-size: 5px;
 }
 
 .medio{
     flex: 25;
-    text-align: left;
+    text-align: initial;
 }
 
 .graduacao{
     flex: 25;
-    text-align: left;
+    text-align: initial;
 }
 
 .ingles{
@@ -110,7 +112,7 @@ p{
 }
 
 .experiencia{
-    flex: 40;
+    flex: 35;
     border-top: 1px solid #708090;
 }
 
