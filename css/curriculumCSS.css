@@ -1,22 +1,24 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    padding: 15px;
+    background-color: white;
+}
+
+.cabecalho{
+    display: flex;
     background-color: #E6E6FA;
 }
 
 h1{
-    padding: 5px;
     font-size: 30px;
+    background-color:#E6E6FA;
 }
 
 .flex-container {
     display: flex;
-    background-color: #E6E6FA;
+    background-color: white;
     justify-content: center;
     align-items: center;
     border-bottom: #708090 solid 2px;
-    border-top: solid #708090 2px;
-    
 }
   
 .flex-container > li {
@@ -43,28 +45,89 @@ h1{
 .info{
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
+    margin: 15px;
 }
 
 h2{
     font-size: 15px;
+    margin: 0px;
 }
 
 p{
     font-size: 14px;
+    margin: 9px;
 }
 
 .lado{
     text-align: center;
     flex: 25;
-    background-color: #E6E6FA;
+    background-color: white;
     padding: 15px;
+}
+
+.lado > img {
+    border-radius: 1000px;
+    width: 150px;
+    height: 150px;
 }
 
 .meio{
     flex:75;
-    background-color: #E6E6FA;
-    padding: 15px;
+    background-color: white;
+    padding: 10px;
     border-left: #708090 solid 1px;
 
+}
+
+.educacao{
+    flex: 25;
+    border-bottom: 1px solid #708090;
+    padding: 15px;
+}
+
+.medio{
+    flex: 25;
+    padding:10px;
+    text-align: center;
+}
+
+.medio > h2 {
+    font-size: 15px;
+    color: darkslategrey;
+}
+
+.graduacao{
+    flex: 25;
+    padding: 10px;
+    text-align: center; 
+}
+
+.graduacao > h2 {
+    font-size: 15px;
+    color: darkslategrey;
+}
+
+.ingles{
+    flex: 25;
+    padding: 10px;
+    text-align: center; 
+}
+
+.ingles > h2 {
+    font-size: 15px;
+    color: darkslategrey;
+}
+
+.experiencia{
+    flex: 100;
+    border-top: 1px solid #708090;
+}
+
+footer {
+    text-align: center;
+    padding:10px;
+    text-align: center;
+    background-color:#E6E6FA;
+    color:black;
+    border-top: solid #708090 2px;
 }
