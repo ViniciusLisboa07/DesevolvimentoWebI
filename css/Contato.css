@@ -1,0 +1,124 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.cabecalho{
+    display: flex;
+    background-color: #E6E6FA;
+}
+
+.cabecalho > h1{
+    font-size: 30px;
+    background-color:#E6E6FA;
+}
+
+.flex-container {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-bottom: #708090 solid 2px;
+}
+  
+.flex-container > li {
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+    margin-right: 5px;
+    padding: 5px;
+    width: 70px;
+    height: 20px;
+    border:2px solid darkgray; 
+}
+
+.flex-container > li:hover{
+    background-color:darkgrey;
+}
+
+.flex-container > li > a {
+    text-decoration: none;
+    color: #708090
+}
+
+.formulario{
+    font-size: 13px;
+    margin: 10px;
+    border: 0px;
+}
+
+.formulario > legend{
+    font-size: 25px;
+}
+
+input[type=submit]{
+    background:#708090;
+    color:#ffffff;
+    width: 400px;
+    height: 25px;
+    border: 0px solid #708090;
+    border-radius: 4px;
+    margin: 3px;
+}
+
+input[type=text]{
+    width: 400px;
+    height: 25px;
+    outline: 0;
+    margin: 3px;
+    border-radius: 4px;
+}
+
+input[type=text]:focus{
+    outline: 0;
+    border-color: #87CEEB;
+    border-radius: 4px;
+}
+
+input[type=number]{
+    width: 400px;
+    height: 25px;
+    margin: 3px;
+    border-radius: 4px;
+}
+
+input[type=number]:focus{
+    outline: 0;
+    border-color: #87CEEB;
+    border-radius: 4px;
+}
+
+select{
+    width: 400px;
+    height: 25px;
+    margin: 3px;
+    border-radius: 4px;
+}
+
+select:focus{
+    outline: 0;
+    border-color: #87CEEB;
+    border-radius: 4px;
+}
+
+textarea{
+    width: 400px;
+    height: 100px;
+    margin: 3px;
+    border-radius: 4px;
+}
+
+textarea:focus{
+    outline: 0;
+    border-color: #87CEEB;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    padding:10px;
+    text-align: center;
+    background-color:white;
+    color:black;
+    border-top: solid #708090 2px;
+}
