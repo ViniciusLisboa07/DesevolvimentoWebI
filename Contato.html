@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Contato</title>
+    <link rel='stylesheet' href='css/Contato.css'>
+    
+</head>
+<body>
+    <div class="cabecalho">
+        <h1>Desenvolvimento Web I</h1>
+    </div>
+
+    <div>
+        <nav>
+            <ol class="flex-container">
+                <li style="list-style: none;"><a href="TrabalhoDevWEB.html">Index</a></li>
+                <li style="list-style: none;"><a href="AlunoVinícius.html">Aluno I</a></li>
+                <li style="list-style: none;"><a href="">Aluno II</a></li>
+                <li style="list-style: none;"><a href="">Aluno III</a></li>
+                <li style="list-style: none;"><a href="Contato.html">Contato</a></li>
+            </ol>
+        </nav>
+    </div>
+
+    <fieldset class="formulario">
+        <legend><b>Formulário de Contato</b></legend>
+        
+        <label for="txtNome"><b>Nome:</b></label><br>
+        <input onclick="" type="text" name="txtNome" id="txtNome" placeholder="Digite o nome"><br>
+
+        <label for="txtEmail"><b>E-mail:</b></label><br>
+        <input type="text" name="txtEmail" id="txtEmail" placeholder="Digite seu e-mail"><br>
+
+        
+        <label for="nbTele"><b>Telefone:</b></label><br>
+        <input type="number" name="nbTele" id="nbTele" placeholder="Digite seu telefone"><br>
+
+        <label for="prioridade"><b>Prioridade:</b></label><br>
+        <select id="prioridade" name="prioridade">
+            <option value="Alta">Alta</option>
+            <option value="Média">Média</option>
+            <option value="Baixa">Baixa</option>
+        </select><br>
+
+        <label for="txtMensagem"><b>Mensagem:</b></label><br>
+        <textarea name="txtMensagem" id="txtMensagem" rows="6" cols="50"
+                placeholder="Escreva sua mensagem"></textarea><br>
+
+        <input id="Enviar" type="submit" value="Enviar">
+    </fieldset>
+    <footer>&copy; Desenvolvido por Vinícius Lisboa - 2020</footer>    
+</body>
+</html>
